@@ -10,11 +10,11 @@ const ai = new openai.OpenAI({
 
 // List all models
 
-const models = await ai.models.list();
+// const models = await ai.models.list();
 
-models.data.forEach((model) => {
-  console.table(model);
-});
+// models.data.forEach((model) => {
+//   console.table(model);
+// });
 
 // Await for a prompt
 
